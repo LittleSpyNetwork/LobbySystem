@@ -28,6 +28,7 @@ public class Navigator implements Listener {
 			Inv.setItem(8, Utils.createItem(Material.STAINED_GLASS_PANE, 1, 14, " "));
 			Inv.setItem(9, Utils.createItem(Material.STAINED_GLASS_PANE, 1, 14, " "));
 			Inv.setItem(17, Utils.createItem(Material.STAINED_GLASS_PANE, 1, 14, " "));
+			Inv.setItem(22, Utils.createItem(Material.GOLDEN_APPLE, 1, 0, "§6Spawn"));
 			Inv.setItem(36, Utils.createItem(Material.STAINED_GLASS_PANE, 1, 14, " "));
 			Inv.setItem(44, Utils.createItem(Material.STAINED_GLASS_PANE, 1, 14, " "));
 			Inv.setItem(45, Utils.createItem(Material.STAINED_GLASS_PANE, 1, 14, " "));
