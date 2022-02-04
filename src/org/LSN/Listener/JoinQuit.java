@@ -19,9 +19,9 @@ public class JoinQuit implements Listener {
 		p.setGameMode(GameMode.ADVENTURE);
 		p.getInventory().clear();
 		p.getInventory().setItem(3, Utils.createItem(Material.BLAZE_ROD, 1, 0, "§6§lPlayerhider"));
-//		p.getInventory().setItem(4, Utils.createItem(Material.COMPASS, 1, 0, "§6§lNavigator"));
+		p.getInventory().setItem(4, Utils.createItem(Material.COMPASS, 1, 0, "§6§lNavigator"));
 		p.getInventory().setItem(5, Utils.createItem(Material.CHEST, 1, 0, "§6§lGadgets"));
-		Location loc = new Location(Bukkit.getWorld("lobbymap"), 139.5D, 133D, 635.5D);
+		Location loc = new Location(Bukkit.getWorld("lobyy"), 139.5D, 133D, 635.5D);
 		p.teleport(loc);
 		loc.setYaw(-180.0F);
 		p.setHealth(20.0D);
